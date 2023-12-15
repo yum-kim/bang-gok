@@ -8,7 +8,25 @@ const Login = () => {
     // navigate('/home');
   }, []);
 
-  return <div>Login</div>;
+  return (
+    <div className="w-screen h-screen flex items-center justify-center">
+      <div className="flex flex-col">
+        <div>
+          <div>logo</div>
+          <h1>Sign in</h1>
+        </div>
+        <div>
+          <div>
+            <input type="text" />
+          </div>
+          <div>
+            <input type="text" />
+          </div>
+          <button>Sign in</button>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Login;
